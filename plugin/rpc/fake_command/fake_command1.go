@@ -3,10 +3,10 @@ package fake_command
 import (
 	"fmt"
 
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/requirements"
-	"github.com/cloudfoundry/cli/cf/terminal"
-	"github.com/cloudfoundry/cli/flags"
+	"github.com/theophoric/cf-cli/cf/command_registry"
+	"github.com/theophoric/cf-cli/cf/requirements"
+	"github.com/theophoric/cf-cli/cf/terminal"
+	"github.com/theophoric/cf-cli/flags"
 )
 
 type FakeCommand1 struct {

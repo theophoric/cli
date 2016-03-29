@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	"errors"
-	"github.com/cloudfoundry/cli/cf"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	. "github.com/cloudfoundry/cli/cf/i18n"
-	"github.com/cloudfoundry/cli/cf/terminal"
+	"github.com/theophoric/cf-cli/cf"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	. "github.com/theophoric/cf-cli/cf/i18n"
+	"github.com/theophoric/cf-cli/cf/terminal"
 )
 
 type ApiEndpointRequirement struct {

@@ -1,9 +1,9 @@
 package main_test
 
 import (
-	"github.com/cloudfoundry/cli/plugin/fakes"
-	. "github.com/cloudfoundry/cli/plugin_examples/call_cli_cmd/main"
-	io_helpers "github.com/cloudfoundry/cli/testhelpers/io"
+	"github.com/theophoric/cf-cli/plugin/fakes"
+	. "github.com/theophoric/cf-cli/plugin_examples/call_cli_cmd/main"
+	io_helpers "github.com/theophoric/cf-cli/testhelpers/io"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

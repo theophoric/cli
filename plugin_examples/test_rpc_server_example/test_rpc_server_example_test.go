@@ -5,10 +5,10 @@ import (
 	"errors"
 	"os/exec"
 
-	. "github.com/cloudfoundry/cli/plugin_examples/test_rpc_server_example"
+	. "github.com/theophoric/cf-cli/plugin_examples/test_rpc_server_example"
 
-	"github.com/cloudfoundry/cli/testhelpers/rpc_server"
-	fake_rpc_handlers "github.com/cloudfoundry/cli/testhelpers/rpc_server/fakes"
+	"github.com/theophoric/cf-cli/testhelpers/rpc_server"
+	fake_rpc_handlers "github.com/theophoric/cf-cli/testhelpers/rpc_server/fakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -1,10 +1,10 @@
 package requirements_test
 
 import (
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/models"
-	. "github.com/cloudfoundry/cli/cf/requirements"
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	"github.com/theophoric/cf-cli/cf/models"
+	. "github.com/theophoric/cf-cli/cf/requirements"
+	testconfig "github.com/theophoric/cf-cli/testhelpers/configuration"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

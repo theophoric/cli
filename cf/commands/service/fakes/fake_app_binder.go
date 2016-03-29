@@ -1,10 +1,10 @@
 package commands
 
 import (
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/requirements"
-	"github.com/cloudfoundry/cli/flags"
+	"github.com/theophoric/cf-cli/cf/command_registry"
+	"github.com/theophoric/cf-cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/requirements"
+	"github.com/theophoric/cf-cli/flags"
 )
 
 type FakeAppBinder struct {

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/cloudfoundry/cli/cf/api"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/errors"
+	"github.com/theophoric/cf-cli/cf/api"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	"github.com/theophoric/cf-cli/cf/errors"
 
-	"github.com/cloudfoundry/cli/testhelpers/cloud_controller_gateway"
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
+	"github.com/theophoric/cf-cli/testhelpers/cloud_controller_gateway"
+	testconfig "github.com/theophoric/cf-cli/testhelpers/configuration"
 
 	"github.com/onsi/gomega/ghttp"
 

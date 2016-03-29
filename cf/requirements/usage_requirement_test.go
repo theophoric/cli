@@ -1,7 +1,7 @@
 package requirements_test
 
 import (
-	. "github.com/cloudfoundry/cli/cf/requirements"
+	. "github.com/theophoric/cf-cli/cf/requirements"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

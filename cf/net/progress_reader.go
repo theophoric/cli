@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/cloudfoundry/cli/cf/formatters"
-	"github.com/cloudfoundry/cli/cf/terminal"
+	"github.com/theophoric/cf-cli/cf/formatters"
+	"github.com/theophoric/cf-cli/cf/terminal"
 )
 
 type ProgressReader struct {

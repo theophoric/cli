@@ -5,9 +5,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/cloudfoundry/cli/cf/configuration/config_helpers"
-	. "github.com/cloudfoundry/cli/cf/configuration/plugin_config"
-	"github.com/cloudfoundry/cli/plugin"
+	"github.com/theophoric/cf-cli/cf/configuration/config_helpers"
+	. "github.com/theophoric/cf-cli/cf/configuration/plugin_config"
+	"github.com/theophoric/cf-cli/plugin"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

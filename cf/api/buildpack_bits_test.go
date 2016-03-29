@@ -12,15 +12,15 @@ import (
 	"runtime"
 	"sort"
 
-	"github.com/cloudfoundry/cli/cf/app_files"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/models"
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
-	testnet "github.com/cloudfoundry/cli/testhelpers/net"
+	"github.com/theophoric/cf-cli/cf/app_files"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	"github.com/theophoric/cf-cli/cf/models"
+	testconfig "github.com/theophoric/cf-cli/testhelpers/configuration"
+	testnet "github.com/theophoric/cf-cli/testhelpers/net"
 
-	. "github.com/cloudfoundry/cli/cf/api"
-	"github.com/cloudfoundry/cli/testhelpers/cloud_controller_gateway"
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
+	. "github.com/theophoric/cf-cli/cf/api"
+	"github.com/theophoric/cf-cli/testhelpers/cloud_controller_gateway"
+	. "github.com/theophoric/cf-cli/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

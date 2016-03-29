@@ -3,7 +3,7 @@ package trace
 import (
 	"strconv"
 
-	. "github.com/cloudfoundry/cli/cf/i18n"
+	. "github.com/theophoric/cf-cli/cf/i18n"
 
 	"github.com/cloudfoundry/gofileutils/fileutils"
 )

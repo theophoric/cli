@@ -3,14 +3,14 @@ package buildpack_test
 import (
 	"strings"
 
-	"github.com/cloudfoundry/cli/cf"
-	testapi "github.com/cloudfoundry/cli/cf/api/fakes"
-	testcmd "github.com/cloudfoundry/cli/testhelpers/commands"
-	testreq "github.com/cloudfoundry/cli/testhelpers/requirements"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	"github.com/theophoric/cf-cli/cf"
+	testapi "github.com/theophoric/cf-cli/cf/api/fakes"
+	testcmd "github.com/theophoric/cf-cli/testhelpers/commands"
+	testreq "github.com/theophoric/cf-cli/testhelpers/requirements"
+	testterm "github.com/theophoric/cf-cli/testhelpers/terminal"
 
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
+	"github.com/theophoric/cf-cli/cf/command_registry"
+	. "github.com/theophoric/cf-cli/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

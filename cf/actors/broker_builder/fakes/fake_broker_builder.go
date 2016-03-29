@@ -2,11 +2,11 @@
 package fakes
 
 import (
-	. "github.com/cloudfoundry/cli/cf/actors/broker_builder"
+	. "github.com/theophoric/cf-cli/cf/actors/broker_builder"
 
 	"sync"
 
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/models"
 )
 
 type FakeBrokerBuilder struct {

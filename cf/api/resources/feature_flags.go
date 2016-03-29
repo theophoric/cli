@@ -1,6 +1,6 @@
 package resources
 
-import "github.com/cloudfoundry/cli/cf/models"
+import "github.com/theophoric/cf-cli/cf/models"
 
 type FeatureFlagResource struct {
 	Entity models.FeatureFlag

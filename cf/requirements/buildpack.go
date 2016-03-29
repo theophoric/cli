@@ -1,8 +1,8 @@
 package requirements
 
 import (
-	"github.com/cloudfoundry/cli/cf/api"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/api"
+	"github.com/theophoric/cf-cli/cf/models"
 )
 
 type BuildpackRequirement interface {

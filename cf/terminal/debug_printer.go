@@ -3,8 +3,8 @@ package terminal
 import (
 	"time"
 
-	. "github.com/cloudfoundry/cli/cf/i18n"
-	"github.com/cloudfoundry/cli/cf/trace"
+	. "github.com/theophoric/cf-cli/cf/i18n"
+	"github.com/theophoric/cf-cli/cf/trace"
 )
 
 type DebugPrinter struct {

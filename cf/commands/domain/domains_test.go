@@ -3,21 +3,21 @@ package domain_test
 import (
 	"errors"
 
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/requirements"
-	"github.com/cloudfoundry/cli/flags"
+	"github.com/theophoric/cf-cli/cf/command_registry"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	"github.com/theophoric/cf-cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/requirements"
+	"github.com/theophoric/cf-cli/flags"
 
-	fakeapi "github.com/cloudfoundry/cli/cf/api/fakes"
-	fakerequirements "github.com/cloudfoundry/cli/cf/requirements/fakes"
-	testcmd "github.com/cloudfoundry/cli/testhelpers/commands"
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	fakeapi "github.com/theophoric/cf-cli/cf/api/fakes"
+	fakerequirements "github.com/theophoric/cf-cli/cf/requirements/fakes"
+	testcmd "github.com/theophoric/cf-cli/testhelpers/commands"
+	testconfig "github.com/theophoric/cf-cli/testhelpers/configuration"
+	testterm "github.com/theophoric/cf-cli/testhelpers/terminal"
 
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
+	. "github.com/theophoric/cf-cli/testhelpers/matchers"
 
-	"github.com/cloudfoundry/cli/cf/commands/domain"
+	"github.com/theophoric/cf-cli/cf/commands/domain"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

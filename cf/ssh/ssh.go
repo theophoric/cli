@@ -17,10 +17,10 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/ssh/options"
-	"github.com/cloudfoundry/cli/cf/ssh/sigwinch"
-	"github.com/cloudfoundry/cli/cf/ssh/terminal"
+	"github.com/theophoric/cf-cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/ssh/options"
+	"github.com/theophoric/cf-cli/cf/ssh/sigwinch"
+	"github.com/theophoric/cf-cli/cf/ssh/terminal"
 	"github.com/docker/docker/pkg/term"
 )
 

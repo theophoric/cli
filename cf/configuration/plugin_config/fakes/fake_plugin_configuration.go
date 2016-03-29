@@ -4,7 +4,7 @@ package fakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/cli/cf/configuration/plugin_config"
+	"github.com/theophoric/cf-cli/cf/configuration/plugin_config"
 )
 
 type FakePluginConfiguration struct {

@@ -1,14 +1,14 @@
 package actors_test
 
 import (
-	"github.com/cloudfoundry/cli/cf/errors"
+	"github.com/theophoric/cf-cli/cf/errors"
 
-	"github.com/cloudfoundry/cli/cf/actors"
-	fake_plan_builder "github.com/cloudfoundry/cli/cf/actors/plan_builder/fakes"
-	fake_service_builder "github.com/cloudfoundry/cli/cf/actors/service_builder/fakes"
-	testapi "github.com/cloudfoundry/cli/cf/api/fakes"
-	fake_orgs "github.com/cloudfoundry/cli/cf/api/organizations/fakes"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/actors"
+	fake_plan_builder "github.com/theophoric/cf-cli/cf/actors/plan_builder/fakes"
+	fake_service_builder "github.com/theophoric/cf-cli/cf/actors/service_builder/fakes"
+	testapi "github.com/theophoric/cf-cli/cf/api/fakes"
+	fake_orgs "github.com/theophoric/cf-cli/cf/api/organizations/fakes"
+	"github.com/theophoric/cf-cli/cf/models"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -1,8 +1,8 @@
 package requirements
 
 import (
-	"github.com/cloudfoundry/cli/cf/api/spaces"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/api/spaces"
+	"github.com/theophoric/cf-cli/cf/models"
 )
 
 //go:generate counterfeiter -o fakes/fake_space_requirement.go . SpaceRequirement

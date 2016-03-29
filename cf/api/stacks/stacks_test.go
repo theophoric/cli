@@ -3,16 +3,16 @@ package stacks_test
 import (
 	"net/http"
 
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/errors"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	"github.com/theophoric/cf-cli/cf/errors"
+	"github.com/theophoric/cf-cli/cf/models"
 
-	"github.com/cloudfoundry/cli/testhelpers/cloud_controller_gateway"
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
+	"github.com/theophoric/cf-cli/testhelpers/cloud_controller_gateway"
+	testconfig "github.com/theophoric/cf-cli/testhelpers/configuration"
 
 	"github.com/onsi/gomega/ghttp"
 
-	. "github.com/cloudfoundry/cli/cf/api/stacks"
+	. "github.com/theophoric/cf-cli/cf/api/stacks"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

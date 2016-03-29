@@ -1,11 +1,11 @@
 package plugin_installer
 
 import (
-	"github.com/cloudfoundry/cli/cf/actors/plugin_repo"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/terminal"
-	"github.com/cloudfoundry/cli/downloader"
-	"github.com/cloudfoundry/cli/utils"
+	"github.com/theophoric/cf-cli/cf/actors/plugin_repo"
+	"github.com/theophoric/cf-cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/terminal"
+	"github.com/theophoric/cf-cli/downloader"
+	"github.com/theophoric/cf-cli/utils"
 )
 
 type PluginInstaller interface {

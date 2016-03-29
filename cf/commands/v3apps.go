@@ -4,16 +4,16 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/formatters"
-	"github.com/cloudfoundry/cli/cf/requirements"
-	"github.com/cloudfoundry/cli/cf/terminal"
-	"github.com/cloudfoundry/cli/cf/v3/models"
-	"github.com/cloudfoundry/cli/cf/v3/repository"
-	"github.com/cloudfoundry/cli/flags"
+	"github.com/theophoric/cf-cli/cf/command_registry"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	"github.com/theophoric/cf-cli/cf/formatters"
+	"github.com/theophoric/cf-cli/cf/requirements"
+	"github.com/theophoric/cf-cli/cf/terminal"
+	"github.com/theophoric/cf-cli/cf/v3/models"
+	"github.com/theophoric/cf-cli/cf/v3/repository"
+	"github.com/theophoric/cf-cli/flags"
 
-	. "github.com/cloudfoundry/cli/cf/i18n"
+	. "github.com/theophoric/cf-cli/cf/i18n"
 )
 
 type V3Apps struct {

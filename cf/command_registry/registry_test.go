@@ -3,13 +3,13 @@ package command_registry_test
 import (
 	"strings"
 
-	"github.com/cloudfoundry/cli/cf/command_registry"
+	"github.com/theophoric/cf-cli/cf/command_registry"
 
-	. "github.com/cloudfoundry/cli/cf/command_registry/fake_command"
+	. "github.com/theophoric/cf-cli/cf/command_registry/fake_command"
 
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
+	. "github.com/theophoric/cf-cli/testhelpers/matchers"
 
-	. "github.com/cloudfoundry/cli/cf/i18n"
+	. "github.com/theophoric/cf-cli/cf/i18n"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

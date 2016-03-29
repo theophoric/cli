@@ -4,7 +4,7 @@ package fakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/cli/cf/actors"
+	"github.com/theophoric/cf-cli/cf/actors"
 )
 
 type FakeServicePlanActor struct {

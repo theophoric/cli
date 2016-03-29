@@ -8,12 +8,12 @@ import (
 	"strconv"
 	"strings"
 
-	. "github.com/cloudfoundry/cli/cf/i18n"
+	. "github.com/theophoric/cf-cli/cf/i18n"
 
-	"github.com/cloudfoundry/cli/cf/formatters"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/generic"
-	"github.com/cloudfoundry/cli/words/generator"
+	"github.com/theophoric/cf-cli/cf/formatters"
+	"github.com/theophoric/cf-cli/cf/models"
+	"github.com/theophoric/cf-cli/generic"
+	"github.com/theophoric/cf-cli/words/generator"
 )
 
 type Manifest struct {

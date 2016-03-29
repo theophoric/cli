@@ -7,9 +7,9 @@ import (
 	"runtime"
 
 	clipr "github.com/cloudfoundry-incubator/cli-plugin-repo/models"
-	. "github.com/cloudfoundry/cli/cf/i18n"
-	"github.com/cloudfoundry/cli/cf/terminal"
-	"github.com/cloudfoundry/cli/downloader"
+	. "github.com/theophoric/cf-cli/cf/i18n"
+	"github.com/theophoric/cf-cli/cf/terminal"
+	"github.com/theophoric/cf-cli/downloader"
 )
 
 type PluginDownloader struct {

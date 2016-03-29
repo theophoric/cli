@@ -7,8 +7,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/net"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	"github.com/theophoric/cf-cli/cf/net"
 )
 
 //go:generate counterfeiter -o fakes/fake_route_service_binding_repository.go . RouteServiceBindingRepository

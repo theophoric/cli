@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	. "github.com/cloudfoundry/cli/cf/api/resources"
+	. "github.com/theophoric/cf-cli/cf/api/resources"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -7,13 +7,13 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/configuration/plugin_config"
-	. "github.com/cloudfoundry/cli/cf/i18n"
-	"github.com/cloudfoundry/cli/cf/requirements"
-	"github.com/cloudfoundry/cli/cf/terminal"
-	"github.com/cloudfoundry/cli/flags"
-	rpcService "github.com/cloudfoundry/cli/plugin/rpc"
+	"github.com/theophoric/cf-cli/cf/command_registry"
+	"github.com/theophoric/cf-cli/cf/configuration/plugin_config"
+	. "github.com/theophoric/cf-cli/cf/i18n"
+	"github.com/theophoric/cf-cli/cf/requirements"
+	"github.com/theophoric/cf-cli/cf/terminal"
+	"github.com/theophoric/cf-cli/flags"
+	rpcService "github.com/theophoric/cf-cli/plugin/rpc"
 )
 
 type PluginUninstall struct {

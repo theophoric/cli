@@ -1,6 +1,6 @@
 package maker
 
-import "github.com/cloudfoundry/cli/cf/models"
+import "github.com/theophoric/cf-cli/cf/models"
 
 var serviceInstanceGuid func() string
 

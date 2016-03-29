@@ -3,9 +3,9 @@ package service_builder
 import (
 	"errors"
 
-	"github.com/cloudfoundry/cli/cf/actors/plan_builder"
-	"github.com/cloudfoundry/cli/cf/api"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/actors/plan_builder"
+	"github.com/theophoric/cf-cli/cf/api"
+	"github.com/theophoric/cf-cli/cf/models"
 )
 
 type ServiceBuilder interface {
@@ -50,17 +50,35 @@ func (builder Builder) GetAllServicesWithPlans() ([]models.ServiceOffering, erro
 	if err != nil {
 		return []models.ServiceOffering{}, err
 	}
-
-	var plans []models.ServicePlanFields
+    
+    type planResponse struct {
+        index int
+        plans []models.ServicePlanFields
+        err error
+    }
+    
+    resChan := make(chan *planResponse, len(services));
+    
 	for index, service := range services {
-		plans, err = builder.planBuilder.GetPlansForService(service.Guid)
-		if err != nil {
-			return []models.ServiceOffering{}, err
-		}
-		services[index].Plans = plans
+        go func(resChan chan *planResponse, guid string, index int) {
+            res := &planResponse{
+                index: index,
+            }
+            res.plans, res.err = builder.planBuilder.GetPlansForService(guid)
+            resChan <- res                
+        }(resChan, service.Guid, index)
 	}
-
-	return services, err
+    
+    for responseCount := 0; responseCount < len(services); {
+        res := <- resChan
+        if res.err != nil {
+            return []models.ServiceOffering{}, err
+        }
+        services[res.index].Plans = res.plans
+        responseCount++
+    }
+    
+	return services, nil
 }
 
 func (builder Builder) GetServicesForSpace(spaceGuid string) ([]models.ServiceOffering, error) {
@@ -68,18 +86,39 @@ func (builder Builder) GetServicesForSpace(spaceGuid string) ([]models.ServiceOf
 }
 
 func (builder Builder) GetServicesForSpaceWithPlans(spaceGuid string) ([]models.ServiceOffering, error) {
+    
 	services, err := builder.GetServicesForSpace(spaceGuid)
 	if err != nil {
 		return []models.ServiceOffering{}, err
 	}
 
+    type planResponse struct {
+        index int
+        plans []models.ServicePlanFields
+        err error
+    }
+    
+    resChan := make(chan *planResponse, len(services));
+    
 	for index, service := range services {
-		services[index].Plans, err = builder.planBuilder.GetPlansForService(service.Guid)
-		if err != nil {
-			return []models.ServiceOffering{}, err
-		}
+        go func(resChan chan *planResponse, guid string, index int) {
+            res := &planResponse{
+                index: index,
+            }
+            res.plans, res.err = builder.planBuilder.GetPlansForService(guid)
+            resChan <- res                
+        }(resChan, service.Guid, index)
 	}
-
+    
+    for responseCount := 0; responseCount < len(services); {
+        res := <- resChan
+        if res.err != nil {
+            return []models.ServiceOffering{}, err
+        }
+        services[res.index].Plans = res.plans
+        responseCount++
+    }
+    
 	return services, nil
 }
 

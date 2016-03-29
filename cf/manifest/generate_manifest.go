@@ -4,14 +4,14 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/generic"
+	"github.com/theophoric/cf-cli/cf/models"
+	"github.com/theophoric/cf-cli/generic"
 
 	"gopkg.in/yaml.v2"
 
 	"io"
 
-	. "github.com/cloudfoundry/cli/cf/i18n"
+	. "github.com/theophoric/cf-cli/cf/i18n"
 )
 
 //go:generate counterfeiter -o fakes/fake_app_manifest.go . AppManifest

@@ -2,10 +2,10 @@ package requirements_test
 
 import (
 	"github.com/blang/semver"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/requirements"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	"github.com/theophoric/cf-cli/cf/requirements"
 
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
+	testconfig "github.com/theophoric/cf-cli/testhelpers/configuration"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

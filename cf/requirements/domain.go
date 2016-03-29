@@ -1,9 +1,9 @@
 package requirements
 
 import (
-	"github.com/cloudfoundry/cli/cf/api"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/api"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	"github.com/theophoric/cf-cli/cf/models"
 )
 
 //go:generate counterfeiter -o fakes/fake_domain_requirement.go . DomainRequirement

@@ -1,12 +1,12 @@
 package api_test
 
 import (
-	. "github.com/cloudfoundry/cli/cf/api"
-	testapi "github.com/cloudfoundry/cli/cf/api/fakes"
-	"github.com/cloudfoundry/cli/testhelpers/cloud_controller_gateway"
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
-	testnet "github.com/cloudfoundry/cli/testhelpers/net"
+	. "github.com/theophoric/cf-cli/cf/api"
+	testapi "github.com/theophoric/cf-cli/cf/api/fakes"
+	"github.com/theophoric/cf-cli/testhelpers/cloud_controller_gateway"
+	testconfig "github.com/theophoric/cf-cli/testhelpers/configuration"
+	. "github.com/theophoric/cf-cli/testhelpers/matchers"
+	testnet "github.com/theophoric/cf-cli/testhelpers/net"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"net/http"

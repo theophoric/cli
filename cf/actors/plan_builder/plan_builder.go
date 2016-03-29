@@ -1,9 +1,9 @@
 package plan_builder
 
 import (
-	"github.com/cloudfoundry/cli/cf/api"
-	"github.com/cloudfoundry/cli/cf/api/organizations"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/api"
+	"github.com/theophoric/cf-cli/cf/api/organizations"
+	"github.com/theophoric/cf-cli/cf/models"
 )
 
 type PlanBuilder interface {

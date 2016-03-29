@@ -1,9 +1,9 @@
 package trace_test
 
 import (
-	. "github.com/cloudfoundry/cli/cf/trace"
+	. "github.com/theophoric/cf-cli/cf/trace"
 
-	"github.com/cloudfoundry/cli/cf/trace/fakes"
+	"github.com/theophoric/cf-cli/cf/trace/fakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

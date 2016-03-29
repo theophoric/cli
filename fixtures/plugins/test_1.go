@@ -12,7 +12,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/cloudfoundry/cli/plugin"
+	"github.com/theophoric/cf-cli/plugin"
 )
 
 type Test1 struct {

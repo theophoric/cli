@@ -1,23 +1,23 @@
 package application_test
 
 import (
-	testApplication "github.com/cloudfoundry/cli/cf/api/applications/fakes"
-	authenticationfakes "github.com/cloudfoundry/cli/cf/api/authentication/fakes"
-	testCopyApplication "github.com/cloudfoundry/cli/cf/api/copy_application_source/fakes"
-	testapi "github.com/cloudfoundry/cli/cf/api/fakes"
-	testorg "github.com/cloudfoundry/cli/cf/api/organizations/fakes"
-	appCmdFakes "github.com/cloudfoundry/cli/cf/commands/application/fakes"
-	"github.com/cloudfoundry/cli/cf/models"
-	testcmd "github.com/cloudfoundry/cli/testhelpers/commands"
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
-	testreq "github.com/cloudfoundry/cli/testhelpers/requirements"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	testApplication "github.com/theophoric/cf-cli/cf/api/applications/fakes"
+	authenticationfakes "github.com/theophoric/cf-cli/cf/api/authentication/fakes"
+	testCopyApplication "github.com/theophoric/cf-cli/cf/api/copy_application_source/fakes"
+	testapi "github.com/theophoric/cf-cli/cf/api/fakes"
+	testorg "github.com/theophoric/cf-cli/cf/api/organizations/fakes"
+	appCmdFakes "github.com/theophoric/cf-cli/cf/commands/application/fakes"
+	"github.com/theophoric/cf-cli/cf/models"
+	testcmd "github.com/theophoric/cf-cli/testhelpers/commands"
+	testconfig "github.com/theophoric/cf-cli/testhelpers/configuration"
+	testreq "github.com/theophoric/cf-cli/testhelpers/requirements"
+	testterm "github.com/theophoric/cf-cli/testhelpers/terminal"
 
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/errors"
+	"github.com/theophoric/cf-cli/cf/command_registry"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	"github.com/theophoric/cf-cli/cf/errors"
 
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
+	. "github.com/theophoric/cf-cli/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

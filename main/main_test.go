@@ -17,7 +17,7 @@ var buildPath string
 var buildErr error
 
 var _ = BeforeSuite(func() {
-	buildPath, buildErr = Build("github.com/cloudfoundry/cli/main")
+	buildPath, buildErr = Build("github.com/theophoric/cf-cli/main")
 	Expect(buildErr).NotTo(HaveOccurred())
 })
 

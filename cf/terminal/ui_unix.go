@@ -12,7 +12,7 @@ import (
 	"strings"
 	"syscall"
 
-	. "github.com/cloudfoundry/cli/cf/i18n"
+	. "github.com/theophoric/cf-cli/cf/i18n"
 )
 
 const (

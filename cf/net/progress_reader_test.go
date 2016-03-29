@@ -4,10 +4,10 @@ import (
 	"os"
 	"time"
 
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	testterm "github.com/theophoric/cf-cli/testhelpers/terminal"
 
-	. "github.com/cloudfoundry/cli/cf/net"
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
+	. "github.com/theophoric/cf-cli/cf/net"
+	. "github.com/theophoric/cf-cli/testhelpers/matchers"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

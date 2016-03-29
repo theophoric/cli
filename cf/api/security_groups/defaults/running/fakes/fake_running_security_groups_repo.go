@@ -4,9 +4,9 @@ package fakes
 import (
 	"sync"
 
-	. "github.com/cloudfoundry/cli/cf/api/security_groups/defaults"
-	. "github.com/cloudfoundry/cli/cf/api/security_groups/defaults/running"
-	"github.com/cloudfoundry/cli/cf/models"
+	. "github.com/theophoric/cf-cli/cf/api/security_groups/defaults"
+	. "github.com/theophoric/cf-cli/cf/api/security_groups/defaults/running"
+	"github.com/theophoric/cf-cli/cf/models"
 )
 
 type FakeRunningSecurityGroupsRepo struct {

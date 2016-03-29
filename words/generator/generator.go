@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	. "github.com/cloudfoundry/cli/words"
+	. "github.com/theophoric/cf-cli/words"
 )
 
 type WordGenerator interface {

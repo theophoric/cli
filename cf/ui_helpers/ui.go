@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	. "github.com/cloudfoundry/cli/cf/i18n"
+	. "github.com/theophoric/cf-cli/cf/i18n"
 
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/terminal"
+	"github.com/theophoric/cf-cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/terminal"
 )
 
 func ColoredAppState(app models.ApplicationFields) string {

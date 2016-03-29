@@ -1,16 +1,16 @@
 package api_test
 
 import (
-	authenticationfakes "github.com/cloudfoundry/cli/cf/api/authentication/fakes"
-	testapi "github.com/cloudfoundry/cli/cf/api/fakes"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/errors"
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
+	authenticationfakes "github.com/theophoric/cf-cli/cf/api/authentication/fakes"
+	testapi "github.com/theophoric/cf-cli/cf/api/fakes"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	"github.com/theophoric/cf-cli/cf/errors"
+	testconfig "github.com/theophoric/cf-cli/testhelpers/configuration"
 	"github.com/cloudfoundry/loggregatorlib/logmessage"
 	noaa_errors "github.com/cloudfoundry/noaa/errors"
 	"github.com/gogo/protobuf/proto"
 
-	. "github.com/cloudfoundry/cli/cf/api"
+	. "github.com/theophoric/cf-cli/cf/api"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

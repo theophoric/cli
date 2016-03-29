@@ -4,8 +4,8 @@ package fakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/cli/cf/api/stacks"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/api/stacks"
+	"github.com/theophoric/cf-cli/cf/models"
 )
 
 type FakeStackRepository struct {

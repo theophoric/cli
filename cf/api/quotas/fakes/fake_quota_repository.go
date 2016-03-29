@@ -2,9 +2,9 @@
 package fakes
 
 import (
-	. "github.com/cloudfoundry/cli/cf/api/quotas"
+	. "github.com/theophoric/cf-cli/cf/api/quotas"
 
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/models"
 
 	"sync"
 )

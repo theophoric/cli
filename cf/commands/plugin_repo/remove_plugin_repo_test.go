@@ -1,15 +1,15 @@
 package plugin_repo_test
 
 import (
-	testcmd "github.com/cloudfoundry/cli/testhelpers/commands"
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
-	testreq "github.com/cloudfoundry/cli/testhelpers/requirements"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	testcmd "github.com/theophoric/cf-cli/testhelpers/commands"
+	testconfig "github.com/theophoric/cf-cli/testhelpers/configuration"
+	testreq "github.com/theophoric/cf-cli/testhelpers/requirements"
+	testterm "github.com/theophoric/cf-cli/testhelpers/terminal"
 
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/models"
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
+	"github.com/theophoric/cf-cli/cf/command_registry"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	"github.com/theophoric/cf-cli/cf/models"
+	. "github.com/theophoric/cf-cli/testhelpers/matchers"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

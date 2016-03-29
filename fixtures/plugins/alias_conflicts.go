@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/cloudfoundry/cli/plugin"
+	"github.com/theophoric/cf-cli/plugin"
 )
 
 type AliasConflicts struct {

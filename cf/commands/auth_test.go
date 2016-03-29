@@ -3,20 +3,20 @@ package commands_test
 import (
 	"errors"
 
-	"github.com/cloudfoundry/cli/cf"
-	authenticationfakes "github.com/cloudfoundry/cli/cf/api/authentication/fakes"
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/trace/fakes"
-	testcmd "github.com/cloudfoundry/cli/testhelpers/commands"
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
-	testreq "github.com/cloudfoundry/cli/testhelpers/requirements"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	"github.com/theophoric/cf-cli/cf"
+	authenticationfakes "github.com/theophoric/cf-cli/cf/api/authentication/fakes"
+	"github.com/theophoric/cf-cli/cf/command_registry"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	"github.com/theophoric/cf-cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/trace/fakes"
+	testcmd "github.com/theophoric/cf-cli/testhelpers/commands"
+	testconfig "github.com/theophoric/cf-cli/testhelpers/configuration"
+	testreq "github.com/theophoric/cf-cli/testhelpers/requirements"
+	testterm "github.com/theophoric/cf-cli/testhelpers/terminal"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
+	. "github.com/theophoric/cf-cli/testhelpers/matchers"
 )
 
 var _ = Describe("auth command", func() {

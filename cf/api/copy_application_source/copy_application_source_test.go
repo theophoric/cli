@@ -4,12 +4,12 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	. "github.com/cloudfoundry/cli/cf/api/copy_application_source"
-	testapi "github.com/cloudfoundry/cli/cf/api/fakes"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/testhelpers/cloud_controller_gateway"
-	testconfig "github.com/cloudfoundry/cli/testhelpers/configuration"
-	testnet "github.com/cloudfoundry/cli/testhelpers/net"
+	. "github.com/theophoric/cf-cli/cf/api/copy_application_source"
+	testapi "github.com/theophoric/cf-cli/cf/api/fakes"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	"github.com/theophoric/cf-cli/testhelpers/cloud_controller_gateway"
+	testconfig "github.com/theophoric/cf-cli/testhelpers/configuration"
+	testnet "github.com/theophoric/cf-cli/testhelpers/net"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

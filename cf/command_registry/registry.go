@@ -6,13 +6,13 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/cloudfoundry/cli/cf"
-	"github.com/cloudfoundry/cli/cf/configuration/config_helpers"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	. "github.com/cloudfoundry/cli/cf/i18n"
-	"github.com/cloudfoundry/cli/flags"
+	"github.com/theophoric/cf-cli/cf"
+	"github.com/theophoric/cf-cli/cf/configuration/config_helpers"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	. "github.com/theophoric/cf-cli/cf/i18n"
+	"github.com/theophoric/cf-cli/flags"
 
-	. "github.com/cloudfoundry/cli/cf/terminal"
+	. "github.com/theophoric/cf-cli/cf/terminal"
 )
 
 var _ = initI18nFunc()

@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/cloudfoundry/cli/cf/api/application_bits"
-	"github.com/cloudfoundry/cli/cf/api/resources"
-	"github.com/cloudfoundry/cli/cf/app_files"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/api/application_bits"
+	"github.com/theophoric/cf-cli/cf/api/resources"
+	"github.com/theophoric/cf-cli/cf/app_files"
+	"github.com/theophoric/cf-cli/cf/models"
 	"github.com/cloudfoundry/gofileutils/fileutils"
 )
 

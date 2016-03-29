@@ -4,9 +4,9 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/cloudfoundry/cli/plugin"
-	"github.com/cloudfoundry/cli/testhelpers/rpc_server"
-	fake_rpc_handlers "github.com/cloudfoundry/cli/testhelpers/rpc_server/fakes"
+	"github.com/theophoric/cf-cli/plugin"
+	"github.com/theophoric/cf-cli/testhelpers/rpc_server"
+	fake_rpc_handlers "github.com/theophoric/cf-cli/testhelpers/rpc_server/fakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/gbytes"

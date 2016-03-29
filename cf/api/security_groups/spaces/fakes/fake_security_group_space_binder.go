@@ -4,7 +4,7 @@ package tmp
 import (
 	"sync"
 
-	. "github.com/cloudfoundry/cli/cf/api/security_groups/spaces"
+	. "github.com/theophoric/cf-cli/cf/api/security_groups/spaces"
 )
 
 type FakeSecurityGroupSpaceBinder struct {

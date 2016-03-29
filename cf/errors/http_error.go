@@ -3,7 +3,7 @@ package errors
 import (
 	"fmt"
 
-	. "github.com/cloudfoundry/cli/cf/i18n"
+	. "github.com/theophoric/cf-cli/cf/i18n"
 )
 
 type HttpError interface {

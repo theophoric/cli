@@ -4,9 +4,9 @@ package fakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/cli/plugin"
-	"github.com/cloudfoundry/cli/plugin/models"
-	"github.com/cloudfoundry/cli/testhelpers/rpc_server"
+	"github.com/theophoric/cf-cli/plugin"
+	"github.com/theophoric/cf-cli/plugin/models"
+	"github.com/theophoric/cf-cli/testhelpers/rpc_server"
 )
 
 type FakeHandlers struct {

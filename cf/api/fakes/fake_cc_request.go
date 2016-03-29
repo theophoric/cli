@@ -3,7 +3,7 @@ package fakes
 import (
 	"net/http"
 
-	testnet "github.com/cloudfoundry/cli/testhelpers/net"
+	testnet "github.com/theophoric/cf-cli/testhelpers/net"
 )
 
 func NewCloudControllerTestRequest(request testnet.TestRequest) testnet.TestRequest {

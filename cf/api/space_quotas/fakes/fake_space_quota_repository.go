@@ -4,8 +4,8 @@ package fakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/cli/cf/api/space_quotas"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/api/space_quotas"
+	"github.com/theophoric/cf-cli/cf/models"
 )
 
 type FakeSpaceQuotaRepository struct {

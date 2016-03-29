@@ -1,7 +1,7 @@
 package manifest
 
 import (
-	"github.com/cloudfoundry/cli/cf/manifest"
+	"github.com/theophoric/cf-cli/cf/manifest"
 )
 
 type FakeManifestRepository struct {

@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"runtime"
 
-	. "github.com/cloudfoundry/cli/cf/trace"
+	. "github.com/theophoric/cf-cli/cf/trace"
 	"github.com/cloudfoundry/gofileutils/fileutils"
 
 	"os"

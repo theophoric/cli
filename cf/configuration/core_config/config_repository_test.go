@@ -6,12 +6,12 @@ import (
 	"path/filepath"
 
 	"github.com/blang/semver"
-	"github.com/cloudfoundry/cli/cf/configuration"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/testhelpers/maker"
+	"github.com/theophoric/cf-cli/cf/configuration"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	"github.com/theophoric/cf-cli/cf/models"
+	"github.com/theophoric/cf-cli/testhelpers/maker"
 
-	fakeconfig "github.com/cloudfoundry/cli/cf/configuration/fakes"
+	fakeconfig "github.com/theophoric/cf-cli/cf/configuration/fakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

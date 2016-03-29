@@ -10,7 +10,7 @@ package main
 import (
 	"os"
 
-	"github.com/cloudfoundry/cli/plugin"
+	"github.com/theophoric/cf-cli/plugin"
 )
 
 type Panics struct {

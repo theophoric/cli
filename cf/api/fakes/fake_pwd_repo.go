@@ -1,6 +1,6 @@
 package fakes
 
-import "github.com/cloudfoundry/cli/cf/errors"
+import "github.com/theophoric/cf-cli/cf/errors"
 
 type FakePasswordRepo struct {
 	Score          string

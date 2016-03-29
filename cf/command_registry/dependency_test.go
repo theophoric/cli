@@ -1,8 +1,8 @@
 package command_registry_test
 
 import (
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/trace/fakes"
+	"github.com/theophoric/cf-cli/cf/command_registry"
+	"github.com/theophoric/cf-cli/cf/trace/fakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

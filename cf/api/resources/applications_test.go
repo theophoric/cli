@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/cloudfoundry/cli/cf/api/resources"
-	"github.com/cloudfoundry/cli/cf/models"
-	testtime "github.com/cloudfoundry/cli/testhelpers/time"
+	"github.com/theophoric/cf-cli/cf/api/resources"
+	"github.com/theophoric/cf-cli/cf/models"
+	testtime "github.com/theophoric/cf-cli/testhelpers/time"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

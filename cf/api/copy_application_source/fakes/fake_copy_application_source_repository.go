@@ -2,7 +2,7 @@
 package fakes
 
 import (
-	. "github.com/cloudfoundry/cli/cf/api/copy_application_source"
+	. "github.com/theophoric/cf-cli/cf/api/copy_application_source"
 
 	"sync"
 )

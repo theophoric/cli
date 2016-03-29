@@ -4,7 +4,7 @@ package fakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/cli/cf/api"
+	"github.com/theophoric/cf-cli/cf/api"
 )
 
 type FakeRouteServiceBindingRepository struct {

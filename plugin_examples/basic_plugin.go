@@ -3,12 +3,12 @@ package main
 import (
 	"fmt"
 
-	"github.com/cloudfoundry/cli/plugin"
+	"github.com/theophoric/cf-cli/plugin"
 )
 
 /*
 *	This is the struct implementing the interface defined by the core CLI. It can
-*	be found at  "github.com/cloudfoundry/cli/plugin/plugin.go"
+*	be found at  "github.com/theophoric/cf-cli/plugin/plugin.go"
 *
  */
 type BasicPlugin struct{}
@@ -86,7 +86,7 @@ func main() {
 	// Any initialization for your plugin can be handled here
 	//
 	// Note: to run the plugin.Start method, we pass in a pointer to the struct
-	// implementing the interface defined at "github.com/cloudfoundry/cli/plugin/plugin.go"
+	// implementing the interface defined at "github.com/theophoric/cf-cli/plugin/plugin.go"
 	//
 	// Note: The plugin's main() method is invoked at install time to collect
 	// metadata. The plugin will exit 0 and the Run([]string) method will not be

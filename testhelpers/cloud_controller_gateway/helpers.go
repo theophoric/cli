@@ -3,10 +3,10 @@ package cloud_controller_gateway
 import (
 	"time"
 
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/net"
-	"github.com/cloudfoundry/cli/cf/trace/fakes"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	"github.com/theophoric/cf-cli/cf/net"
+	"github.com/theophoric/cf-cli/cf/trace/fakes"
+	testterm "github.com/theophoric/cf-cli/testhelpers/terminal"
 )
 
 func NewTestCloudControllerGateway(configRepo core_config.Reader) net.Gateway {

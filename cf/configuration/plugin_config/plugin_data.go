@@ -3,7 +3,7 @@ package plugin_config
 import (
 	"encoding/json"
 
-	"github.com/cloudfoundry/cli/plugin"
+	"github.com/theophoric/cf-cli/plugin"
 )
 
 type PluginData struct {

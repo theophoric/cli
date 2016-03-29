@@ -2,8 +2,8 @@
 package fakes
 
 import (
-	. "github.com/cloudfoundry/cli/cf/app_files"
-	"github.com/cloudfoundry/cli/cf/models"
+	. "github.com/theophoric/cf-cli/cf/app_files"
+	"github.com/theophoric/cf-cli/cf/models"
 
 	"sync"
 )

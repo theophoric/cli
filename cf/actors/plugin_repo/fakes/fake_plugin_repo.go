@@ -5,8 +5,8 @@ import (
 	"sync"
 
 	clipr "github.com/cloudfoundry-incubator/cli-plugin-repo/models"
-	"github.com/cloudfoundry/cli/cf/actors/plugin_repo"
-	"github.com/cloudfoundry/cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/actors/plugin_repo"
+	"github.com/theophoric/cf-cli/cf/models"
 )
 
 type FakePluginRepo struct {

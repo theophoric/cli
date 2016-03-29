@@ -1,7 +1,7 @@
 package api_test
 
 import (
-	. "github.com/cloudfoundry/cli/cf/api"
+	. "github.com/theophoric/cf-cli/cf/api"
 	"github.com/cloudfoundry/loggregatorlib/logmessage"
 	"github.com/gogo/protobuf/proto"
 	. "github.com/onsi/ginkgo"

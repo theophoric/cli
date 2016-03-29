@@ -3,8 +3,8 @@ package app_files
 import (
 	"fmt"
 
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/net"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	"github.com/theophoric/cf-cli/cf/net"
 )
 
 type AppFilesRepository interface {

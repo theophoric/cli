@@ -3,10 +3,10 @@ package requirements_test
 import (
 	"errors"
 
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/requirements"
+	"github.com/theophoric/cf-cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/requirements"
 
-	fakeapi "github.com/cloudfoundry/cli/cf/api/fakes"
+	fakeapi "github.com/theophoric/cf-cli/cf/api/fakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

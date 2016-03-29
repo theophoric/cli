@@ -3,8 +3,8 @@ package requirements
 import (
 	"errors"
 
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	. "github.com/cloudfoundry/cli/cf/i18n"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	. "github.com/theophoric/cf-cli/cf/i18n"
 )
 
 type RoutingAPIRequirement struct {

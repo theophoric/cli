@@ -2,8 +2,8 @@
 package fakes
 
 import (
-	. "github.com/cloudfoundry/cli/cf/api/environment_variable_groups"
-	"github.com/cloudfoundry/cli/cf/models"
+	. "github.com/theophoric/cf-cli/cf/api/environment_variable_groups"
+	"github.com/theophoric/cf-cli/cf/models"
 
 	"sync"
 )

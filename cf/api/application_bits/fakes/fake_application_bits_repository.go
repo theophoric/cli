@@ -5,8 +5,8 @@ import (
 	"os"
 	"sync"
 
-	. "github.com/cloudfoundry/cli/cf/api/application_bits"
-	"github.com/cloudfoundry/cli/cf/api/resources"
+	. "github.com/theophoric/cf-cli/cf/api/application_bits"
+	"github.com/theophoric/cf-cli/cf/api/resources"
 )
 
 type FakeApplicationBitsRepository struct {

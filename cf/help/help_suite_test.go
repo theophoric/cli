@@ -1,7 +1,7 @@
 package help_test
 
 import (
-	"github.com/cloudfoundry/cli/commands_loader"
+	"github.com/theophoric/cf-cli/commands_loader"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 

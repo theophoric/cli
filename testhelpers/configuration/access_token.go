@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
 )
 
 func EncodeAccessToken(tokenInfo core_config.TokenInfo) (accessToken string, err error) {

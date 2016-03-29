@@ -1,11 +1,11 @@
 package panic_printer_test
 
 import (
-	"github.com/cloudfoundry/cli/cf/errors"
-	"github.com/cloudfoundry/cli/cf/panic_printer"
-	"github.com/cloudfoundry/cli/cf/terminal"
+	"github.com/theophoric/cf-cli/cf/errors"
+	"github.com/theophoric/cf-cli/cf/panic_printer"
+	"github.com/theophoric/cf-cli/cf/terminal"
 
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	testterm "github.com/theophoric/cf-cli/testhelpers/terminal"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

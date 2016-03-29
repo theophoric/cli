@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudfoundry/cli/cf"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	term "github.com/cloudfoundry/cli/cf/terminal"
+	"github.com/theophoric/cf-cli/cf"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	term "github.com/theophoric/cf-cli/cf/terminal"
 )
 
 const QuietPanic = "I should not print anything"

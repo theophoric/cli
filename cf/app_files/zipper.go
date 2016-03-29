@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/cloudfoundry/cli/cf/errors"
+	"github.com/theophoric/cf-cli/cf/errors"
 	"github.com/cloudfoundry/gofileutils/fileutils"
 )
 

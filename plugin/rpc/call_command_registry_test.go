@@ -1,13 +1,13 @@
 package rpc_test
 
 import (
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	. "github.com/cloudfoundry/cli/plugin/rpc"
-	. "github.com/cloudfoundry/cli/plugin/rpc/fake_command"
+	"github.com/theophoric/cf-cli/cf/command_registry"
+	. "github.com/theophoric/cf-cli/plugin/rpc"
+	. "github.com/theophoric/cf-cli/plugin/rpc/fake_command"
 
-	"github.com/cloudfoundry/cli/cf/trace/fakes"
-	. "github.com/cloudfoundry/cli/testhelpers/matchers"
-	testterm "github.com/cloudfoundry/cli/testhelpers/terminal"
+	"github.com/theophoric/cf-cli/cf/trace/fakes"
+	. "github.com/theophoric/cf-cli/testhelpers/matchers"
+	testterm "github.com/theophoric/cf-cli/testhelpers/terminal"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

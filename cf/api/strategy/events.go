@@ -1,6 +1,6 @@
 package strategy
 
-import "github.com/cloudfoundry/cli/cf/api/resources"
+import "github.com/theophoric/cf-cli/cf/api/resources"
 
 type EventsEndpointStrategy interface {
 	EventsURL(appGuid string, limit int64) string

@@ -1,11 +1,11 @@
 package running
 
 import (
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/models"
-	"github.com/cloudfoundry/cli/cf/net"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	"github.com/theophoric/cf-cli/cf/models"
+	"github.com/theophoric/cf-cli/cf/net"
 
-	. "github.com/cloudfoundry/cli/cf/api/security_groups/defaults"
+	. "github.com/theophoric/cf-cli/cf/api/security_groups/defaults"
 )
 
 const urlPath = "/v2/config/running_security_groups"

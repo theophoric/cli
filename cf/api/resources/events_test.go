@@ -3,8 +3,8 @@ package resources_test
 import (
 	"encoding/json"
 
-	. "github.com/cloudfoundry/cli/cf/api/resources"
-	testtime "github.com/cloudfoundry/cli/testhelpers/time"
+	. "github.com/theophoric/cf-cli/cf/api/resources"
+	testtime "github.com/theophoric/cf-cli/testhelpers/time"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

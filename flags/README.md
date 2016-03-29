@@ -21,7 +21,7 @@ go get github.com/cloudfoundry/cli/flags  # installs the flags library
 ```Go
 package main
 
-Import "github.com/cloudfoundry/cli/flags"
+Import "github.com/theophoric/cf-cli/flags"
 
 func main(){
   fc := flags.New()

@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/cloudfoundry/cli/cf/configuration"
-	"github.com/cloudfoundry/cli/cf/configuration/config_helpers"
+	"github.com/theophoric/cf-cli/cf/configuration"
+	"github.com/theophoric/cf-cli/cf/configuration/config_helpers"
 )
 
 type PluginConfiguration interface {

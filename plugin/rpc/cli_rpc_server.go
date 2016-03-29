@@ -4,20 +4,20 @@ import (
 	"os"
 
 	"github.com/blang/semver"
-	"github.com/cloudfoundry/cli/cf"
-	"github.com/cloudfoundry/cli/cf/api"
-	"github.com/cloudfoundry/cli/cf/command_registry"
-	"github.com/cloudfoundry/cli/cf/configuration/core_config"
-	"github.com/cloudfoundry/cli/cf/terminal"
-	"github.com/cloudfoundry/cli/plugin"
-	"github.com/cloudfoundry/cli/plugin/models"
+	"github.com/theophoric/cf-cli/cf"
+	"github.com/theophoric/cf-cli/cf/api"
+	"github.com/theophoric/cf-cli/cf/command_registry"
+	"github.com/theophoric/cf-cli/cf/configuration/core_config"
+	"github.com/theophoric/cf-cli/cf/terminal"
+	"github.com/theophoric/cf-cli/plugin"
+	"github.com/theophoric/cf-cli/plugin/models"
 
 	"fmt"
 	"net"
 	"net/rpc"
 	"strconv"
 
-	"github.com/cloudfoundry/cli/cf/trace"
+	"github.com/theophoric/cf-cli/cf/trace"
 )
 
 type CliRpcService struct {

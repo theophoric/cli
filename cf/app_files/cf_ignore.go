@@ -4,7 +4,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/cloudfoundry/cli/glob"
+	"github.com/theophoric/cf-cli/glob"
 )
 
 type CfIgnore interface {

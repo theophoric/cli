@@ -7,7 +7,7 @@ import (
 	"io"
 	"os"
 
-	. "github.com/cloudfoundry/cli/cf/i18n"
+	. "github.com/theophoric/cf-cli/cf/i18n"
 )
 
 var stdout io.Writer = os.Stdout
